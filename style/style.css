@@ -1,0 +1,522 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #EFF5F5;
+}
+
+.btn {
+    padding: 9px 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 20px -15px rgba(0, 71, 184, 0.49);
+    border-radius: 6px;
+    font-family: 'MR';
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+    display: inline-block;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0px 13px 20px -10px rgba(0, 71, 184, 0.49);
+}
+
+.container {
+    max-width: 1344px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* nav */
+.nav__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.nav_right {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav__list_link a {
+    font-family: 'MR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #626262;
+}
+
+.header_bg {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+    /*    width: 100%; */
+}
+
+.header_content_item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 698px;
+    align-items: center;
+}
+
+.header_content_title {
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #323232;
+}
+
+.header_btns {
+    width: 635px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 59px 30px -40px rgba(0, 133, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    gap: 100px;
+}
+
+/* main */
+/* cours */
+.cours {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 119px;
+    margin-bottom: 50px;
+}
+
+.course_right_card {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 30px -15px rgba(0, 133, 255, 0.1);
+    border-radius: 13px;
+    padding: 15px 32px 15px 15px;
+    width: 306px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.line::after,
+.line::before {
+    content: '';
+    display: block;
+    width: 43.01px;
+    height: 1px;
+    background: #626262;
+    margin-right: 12px;
+    margin-left: 17px;
+}
+
+.course_right_text {
+    display: flex;
+    align-items: center;
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #323232;
+    margin-left: 30px;
+
+
+}
+
+.line_sum {
+    font-family: 'MR';
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+
+
+
+
+.course_right_cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 642px;
+    gap: 30px;
+}
+
+.course_right_title {
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #626262;
+
+}
+
+/* cours */
+
+
+/*bestCard  */
+.bestCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bestCard_left_title {
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #626262;
+
+}
+
+.bestCard_left_subtitle {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-family: 'ML';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #626262;
+
+}
+
+.bestCard_left_subtitle span {
+    font-family: 'MBold';
+
+    font-weight: 700;
+
+
+}
+
+.bestCard_left_text {
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #626262;
+
+    margin-bottom: 20px;
+}
+
+.bestCard_left_text span {
+    margin-left: 30px;
+}
+
+.bestCard_left_btn {
+    padding: 9px 61px;
+    font-family: 'MR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+}
+
+.bestCard_left_btn-two {
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 30px;
+
+
+    color: #626262;
+    display: inline-block;
+
+}
+
+/* Credit */
+
+.credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credit__card {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #BDC4FF;
+    padding: 20px;
+    box-shadow: 0px 40px 30px -25px rgba(189, 196, 255, 0.5);
+    border-radius: 10px;
+    width: 642px;
+
+}
+
+.credit__card::before {
+    content: 'Хит';
+    display: block;
+    padding: 3px 17px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 0.5px solid rgba(215, 215, 215, 0.3);
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7.5px);
+    border-radius: 4px;
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    position: absolute;
+    top: -10px;
+    left: 23px;
+}
+
+.credit__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #626262;
+}
+
+.credit__card_title {
+    font-family: 'MBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #626262;
+
+}
+
+.credit__card_text {
+    font-family: 'MR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #323232;
+    margin-top: 20px;
+    max-width: 427px;
+
+}
+
+.credit__card_text:nth-child(3) {
+    font-family: 'MR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323232;
+    margin-bottom: 20px;
+
+}
+
+.credit__card_btn {
+    padding: 9px 54px 9px 60px;
+
+}
+
+
+.credit__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.credit__card:nth-child(2) {
+    background: #FFD280;
+    box-shadow: 0px 40px 30px -25px rgba(255, 210, 128, 0.4);
+    border-radius: 10px;
+}
+
+
+.credit__btn {
+    margin-top: 30px;
+    padding: 9px 82px;
+}
+
+
+/* mobile */
+
+.mobile {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.mobile__title {
+    font-family: 'Mbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #626262;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mobile__allcards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile__card_left {
+    background: #97EAB9;
+    box-shadow: 0px 40px 30px -25px rgba(151, 234, 185, 0.4);
+    border-radius: 10px;
+    width: 642px;
+    padding-top: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.mobile__card_left:hover,
+.mobile__card_right-item:hover {
+    transform: scale(1.05);
+}
+
+.mobile__card_left-title {
+    font-family: 'Mbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #626262;
+    margin-bottom: 25px;
+}
+
+.mobile__card_right {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+
+}
+
+.mobile__card_right-item {
+    background: #FFC1BD;
+    box-shadow: 0px 25px 30px -20px rgba(255, 193, 189, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 642px;
+    padding: 49px 35px;
+    gap: 36px;
+    transition: 0.3s;
+}
+
+.mobile__card_right-item:nth-child(2) {
+    background: #C1B7FF;
+    box-shadow: 0px 25px 30px -25px rgba(193, 183, 255, 0.4);
+    border-radius: 10px;
+    gap: 65px;
+    flex-direction: row-reverse;
+}
+
+.mobile__card_right-title {
+    font-family: 'Mbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #626262;
+}
+
+.mobile__btns {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.mobile__btn {
+    width: 360px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 20px -15px rgba(0, 71, 184, 0.49);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main */
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.footer__text {
+    font-family: 'Mbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    margin-top: 20px;
+}
+
+
+
+/* footer */

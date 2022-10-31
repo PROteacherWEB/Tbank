@@ -1,0 +1,175 @@
+@media(max-width:1400px) {
+    .header_bg {
+        width: 100%;
+    }
+
+    .credit__cards {
+        flex-direction: column;
+    }
+
+    .credit {
+        margin-top: 30px;
+    }
+
+    .mobile__allcards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media(max-width:1200px) {
+    .cours {
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+
+    .cours__img {
+        width: 350px;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:992px) {
+    .best__img {
+        width: 400px;
+    }
+
+    .header_content_item {
+        justify-content: center;
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .header__img {
+        width: 500px;
+    }
+
+    .header_content_title {
+        text-align: center;
+    }
+
+    .bestCard {
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+@media(max-width:768px) {
+    .nav__item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header_btns {
+        flex-direction: column;
+        width: 500px;
+        height: initial;
+        bottom: -144px;
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    .cours {
+        margin-top: 180px;
+    }
+}
+
+@media(max-width:576px) {
+    .nav__item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav_right {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .course_right_cards {
+        justify-content: center;
+    }
+
+    .credit__card,
+    .mobile__card_right-item,
+    .header__img,
+    .header_btns,
+    .best__img,
+    .cours__img {
+        width: 100%;
+    }
+
+    .header_content_title {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:375px) {
+    .mobile__card_left {
+        width: 100%;
+    }
+
+    .mobile__card_left img {
+        width: 250px;
+    }
+
+    .mobile__card_right-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mobile__card_right-item:nth-child(2) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .credit__card {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .credit__title {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .bestCard_left {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .bestCard_left_btn-two {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .nav_list {
+        flex-direction: column;
+    }
+
+    .bestCard_left_text {
+        font-size: 13px;
+    }
+
+    .bestCard_left_text span {
+        margin-left: 10px;
+    }
+
+    .footer img {
+        width: 200px;
+    }
+
+    .footer__text {
+        margin-top: 10px;
+    }
+
+    .header_content_title {
+        font-size: 30px;
+    }
+}
